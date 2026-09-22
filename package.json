@@ -1,0 +1,59 @@
+{
+  "author": {
+    "name": "llymota",
+    "url": "https://github.com/llymota"
+  },
+  "description": "n8n node for SpidLabs admin work",
+  "devDependencies": {
+    "@n8n/node-cli": "0.41.2",
+    "@types/node": "22.15.29",
+    "eslint": "9.29.0",
+    "prettier": "3.6.2",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": "\u003e=22.22.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/llymota/n8n-nodes-spidlabs-admin",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "spidlabs",
+    "admin"
+  ],
+  "license": "MIT",
+  "n8n": {
+    "credentials": [
+      "dist/credentials/SpidlabsApiApi.credentials.js"
+    ],
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/SpidlabsApi/SpidlabsApi.node.js"
+    ],
+    "strict": true
+  },
+  "name": "n8n-nodes-spidlabs-admin",
+  "nativeShip": {
+    "artifactSha256": "bf6c74da4ecf12027bc87898e906f92f836245f5bc7e331082456bd35509aded"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llymota/n8n-nodes-spidlabs-admin.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix"
+  },
+  "version": "1.0.0"
+}

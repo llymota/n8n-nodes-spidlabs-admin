@@ -1,0 +1,15 @@
+{
+    "categories": [
+        "Miscellaneous"
+    ],
+    "codexVersion": "1.0",
+    "node": "n8n-nodes-spidlabs-admin.spidlabsApi",
+    "nodeVersion": "1",
+    "resources": {
+        "primaryDocumentation": [
+            {
+                "url": "https://spidlabs.com"
+            }
+        ]
+    }
+}
