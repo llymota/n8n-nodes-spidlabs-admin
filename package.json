@@ -25,6 +25,11 @@
     "admin"
   ],
   "license": "MIT",
+  "maintainers": [
+    {
+      "name": "llymota"
+    }
+  ],
   "n8n": {
     "credentials": [
       "dist/credentials/SpidlabsApiApi.credentials.js"
@@ -55,5 +60,5 @@
     "lint": "n8n-node lint",
     "lint:fix": "n8n-node lint --fix"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
